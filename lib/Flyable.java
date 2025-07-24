@@ -1,5 +1,5 @@
 package lib;
 
-public abstract class Flyable {
-    public abstract String fly();
+public interface Flyable {
+  public String fly();
 }

@@ -10,4 +10,10 @@ public class Eagle extends Bird implements Flyable   {
         // TODO Auto-generated method stub
          return "Screech!";
     }
+
+    @Override
+    public String fly() {
+        // TODO Auto-generated method stub
+        return  "The eagle soars through the sky." ;
+    }
 }

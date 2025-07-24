@@ -9,4 +9,10 @@ public class Dolphin extends Mammal implements Swimmable  {
     public String makeSound() {
         return "Clicking sounds";
     }
+
+    @Override
+    public String swim() {
+        // TODO Auto-generated method stub
+        return "The dolphin playfully swims in the sea." ;
+    }
 }
