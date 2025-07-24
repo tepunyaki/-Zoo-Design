@@ -1,6 +1,6 @@
 package lib;
 
-public class Lion extends Animal {
+public class Lion extends Mammal {
     public Lion(String name){
         super(name);
     }
